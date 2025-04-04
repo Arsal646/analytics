@@ -198,7 +198,7 @@
         // Load data from JSON file
         async function loadData() {
             try {
-                const response = await fetch('../search-console-data.json');
+                const response = await fetch('search-console-data.json');
                 if (!response.ok) {
                     throw new Error('Failed to load data');
                 }
